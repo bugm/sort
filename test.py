@@ -8,5 +8,6 @@ for each in counter.items():
     print(each)
 x= [1,2,3,4]
 
-print (x[1:1])
-print (x[3:4])
+temp = (1,2)
+temp[0] +=1
+print(temp)
